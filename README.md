@@ -1,1 +1,3 @@
-Personal website hosted on cormacdoyle.com
+# Personal React.js playground
+
+cormacdoyle.com
