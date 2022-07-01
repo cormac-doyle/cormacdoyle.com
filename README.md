@@ -1,3 +1,3 @@
-# Personal React.js playground hosted on AWS
+# [cormacdoyle.com](cormacdoyle.com)
 
-[cormacdoyle.com](cormacdoyle.com)
+React.js playground hosted on AWS
