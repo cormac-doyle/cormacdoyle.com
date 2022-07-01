@@ -1,22 +1,41 @@
-import logo from './logo.svg';
 import './App.css';
+import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <img src='./profile.png' className="App-logo" alt="logo" />
+        <header 
+          className="App-icons" >
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          className='App-icon'
+          href="https://github.com/cormac-doyle"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <FaGithub />
         </a>
+        <a
+          className='App-icon'
+          href="https://www.instagram.com/cormacdoyle/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram/>
+        </a>
+        <a
+          className='App-icon'
+          href="https://www.linkedin.com/in/cormac--doyle/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin/>
+        </a>
+        </header>
+        
+        
+        
       </header>
     </div>
   );
