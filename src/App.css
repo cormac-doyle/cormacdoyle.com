@@ -2,7 +2,19 @@
   text-align: center;
 }
 
+.App-title {
+  color: rgb(28, 167, 95);
+  font-family: 'M PLUS 1 Code';
+  font-size: calc(40px + 2vmin);;
+}
+
+
 .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-profile {
   height: 40vmin;
   pointer-events: none;
 }
