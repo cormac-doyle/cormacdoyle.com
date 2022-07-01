@@ -1,3 +1,3 @@
 # [cormacdoyle.com](cormacdoyle.com)
 
-React.js playground hosted on AWS
+React JS web app hosted on AWS
